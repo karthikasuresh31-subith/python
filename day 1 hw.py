@@ -1,4 +1,5 @@
 #Use variables to store the prices and quantities.
+import random
 rice = 45
 sugar = 40
 oil = 130
@@ -26,11 +27,11 @@ print(finalbill)
 
 #Show the total bill as an integer and also as a string.
 
-finalbill = str(finalbill)
-print(finalbill)
+billasstr= str(finalbill)
+print(billasstr)
 
-finalbill = int(finalbill)
-print(finalbill)
+billasint = int(finalbill)
+print(billasint)
 
 
 #Use random number generation to add a random ?5–?10 delivery charge
